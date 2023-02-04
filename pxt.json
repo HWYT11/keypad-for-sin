@@ -1,0 +1,34 @@
+{
+    "name": "KeyPad for sin",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "keypad": "github:lioujj/pxt-keypad#febb778e65a5035beadfde2424f02a110d1460c4",
+        "lcd1602": "github:xuefengedu/pxt-lcd1602_cn#0ecac824f43d544bf553459adb2696b5f0d3d8d2",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#127c10de32c07df9d274b4ba3594ffef4c2785e1",
+        "SuperBit": "github:lzty634158/superbit#0a0d6cd2c18804f6b56e944d0c7ff7bd91473ec8",
+        "smarttools": "github:51bit/smarttools#v0.3.3",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.10",
+        "tag": "v2.0.10",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9b7b5f1d10f133bc9c14ef24e1b8a67333f12c29",
+        "target": "5.0.12",
+        "pxt": "5.15.13",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
